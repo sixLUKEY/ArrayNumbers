@@ -42,7 +42,7 @@ body{
 
 .containers{
     display: flex;
-    gap: 50px;
+    gap: 20px;
 }
 
 #outputBox{
@@ -56,7 +56,7 @@ body{
 .inputContainer{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     font-size: 1.25rem;
     color: white;
     background-color: black;

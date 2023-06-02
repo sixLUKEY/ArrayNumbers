@@ -23,11 +23,8 @@ function printArrayValue(){
     outputBox.innerHTML ='';
     for(let i=0; i<array1.length; i++) {
     outputBox.innerHTML =`
-     <div class="value">
-     ${array1[i]}
-     </div>
+    ${array1[i]}
     `
-    
     }
 }
 
