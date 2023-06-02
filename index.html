@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Jollof</title>
+</head>
+<body>
+    <h1 style="margin-inline: auto; text-align: center; color: white; font-size: 2.5rem;">Add to array</h1>
+
+    <div class="container">
+       <div class="inputContainer">
+        <p>Add Values to your array</p>
+        <input type="number" name="number" id="arrayNumber">
+        <button onclick="arrayPush()">Add</button>
+        <button onclick="undo()">Undo</button>
+        <button onclick="arrayClear()">Clear</button>
+       </div>
+        <div class="containers">
+            <div class="outputBox" id="outputBox">
+            
+            </div>
+            <div class="outputBox" id="outputBox2">
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
